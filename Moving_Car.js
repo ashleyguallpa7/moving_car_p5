@@ -1,7 +1,7 @@
 // Car position variable
 let carX = 0;
 let carY;
-let carSpeed = 3;
+let carSpeed = 5;
 
 function setup() {
   createCanvas(800, 400);
@@ -74,4 +74,17 @@ function drawCar(x, y) {
   // Headlight (yellow)
   fill(255, 255, 0);
   circle(x + 95, y + 15, 8);
+  fill(255, 255, 255);
+  rect(445, 237, 11, 140, 180);
+  fill(255, 255, 255);
+  rect(390, 215, 120, 83, 5)
+  fill(76, 167, 248);
+  rect(400, 218, 100, 75, 3)
+  fill(255, 255, 255);
+  text('BRIGHTER DAYS', 402, 247);
+  text('AHEAD', 430, 267);
+  fill(255, 255, 0);
+  circle(x + 145, 38, 45);
+  
+  
 }
